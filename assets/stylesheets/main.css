@@ -305,9 +305,9 @@ h6 {
     background-color: #007bff;
 }
 @media(max-width:768px){
-    #banner{
+    /* #banner{
         height: 480px;
-    }
+    } */
     #banner .desc h4,
     #banner .buttons a{
         font-size: 0.9em;
