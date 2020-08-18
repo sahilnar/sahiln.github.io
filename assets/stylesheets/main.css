@@ -198,12 +198,14 @@ h6 {
 /***** Banner *****/
 
 #banner {
-    height: 700px;
+    /* height: 700px; */
     background-image: url("../images/banner.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-size: cover;
     overflow: hidden;
     position: relative;
+    background-position: center center;
+    height: 50vw;
+    z-index: 0;
 }
 /* #banner img{
     position: absolute;
