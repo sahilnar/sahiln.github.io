@@ -65,7 +65,7 @@ h6 {
 .head {
     position: fixed;
     width: 100%;
-    padding: 20px 0px;
+    padding: 10px 0px;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1000;
 }
