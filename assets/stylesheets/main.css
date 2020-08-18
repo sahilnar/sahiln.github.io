@@ -200,10 +200,7 @@ h6 {
 #banner {
     height: 700px;
     background-image: url("../images/banner.jpg");
-    /* background-size: 100% 100%; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-size: 100% 100%;
     background-attachment: fixed;
     overflow: hidden;
     position: relative;
