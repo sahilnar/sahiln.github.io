@@ -492,8 +492,8 @@ h6 {
 @media(max-width:992px){
     #services .service-1,
     #services .service-2{
-    margin-left: 0px;
-}
+        margin-left: 0px;
+    }
 }
 /***** Timeline *****/
 #timeline {
@@ -520,7 +520,11 @@ h6 {
 #my-roadmap{
     width: 100%;
 }
-
+@media(max-width:768px){
+    #timeline h3{
+        font-size: 1.8em;
+    }
+}
 /***** Projects *****/
 #projects{
     text-align: center;
@@ -675,7 +679,8 @@ h6 {
 }
 @media(max-width:768px){
     #contact{
-        height: 90vw;
+        padding: 60px 0px 20px;
+        height: 125vw;
     }
 }
 /***** Footer *****/
