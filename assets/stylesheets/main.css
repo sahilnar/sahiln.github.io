@@ -199,16 +199,16 @@ h6 {
 
 #banner {
     height: 700px;
-    /* background-image: url("../images/banner.jpg"); */
+    background-image: url("../images/banner.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     overflow: hidden;
     position: relative;
 }
-#banner img{
+/* #banner img{
     position: absolute;
     height: inherit;
-}
+} */
 #banner .overlay{
     position: absolute;
     width: 100%;
@@ -642,7 +642,7 @@ h6 {
 }
 @media(max-width:768px){
     #contact{
-        height: 700px;
+        height: 600px;
     }
 }
 /***** Footer *****/
