@@ -307,6 +307,11 @@ h6 {
 @media(max-width:768px){
     #banner{
         height: 480px;
+        background-image: url("../images/banner.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        overflow: hidden;
+        position: relative;
     }
     #banner .desc h4,
     #banner .buttons a{
