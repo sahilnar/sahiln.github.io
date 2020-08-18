@@ -406,6 +406,11 @@ h6 {
         font-size: 2em;
     }
 }
+@media(max-width:576px){
+    #about .headings h2{
+        font-size: 1.7em;
+    }
+}
 /* #about .technology .bar {
     height: 10px;
     background-color: #E1E2E2;
@@ -653,7 +658,7 @@ h6 {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-    height: 30vw;
+    height: 36vw;
 }
 #contact h4{
     color: #037ef3;
@@ -677,13 +682,52 @@ h6 {
     color: white;
     font-size: 14px;
 }
-@media(max-width:768px){
+@media(max-width:992px){
     #contact{
         padding: 60px 0px 20px;
+        height: 50vw;
+    }
+}
+@media(max-width:767px){
+    #contact{
+        height: 85vw;
+    }
+    #contact h3{
+        font-size: 1.8em;
+    }
+}
+@media(max-width:650px){
+    #contact{
+        height: 95vw;
+    }
+}
+@media(max-width:576px){
+    #contact{
+        height: 110vw;
+    }
+}
+@media(max-width:500px){
+    #contact{
         height: 125vw;
     }
 }
-/***** Footer *****/
+@media(max-width:440px){
+    #contact{
+        height: 135vw;
+    }
+}
+@media(max-width:400px){
+    #contact{
+        height: 155vw;
+    }
+}
+@media(max-width:360px){
+    #contact{
+        height: 175vw;
+    }
+}
+/***
+** Footer *****/
 #footer{
     text-align: center;
     position: relative;
