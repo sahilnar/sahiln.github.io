@@ -198,14 +198,6 @@ h6 {
 /***** Banner *****/
 
 #banner {
-    /* height: 700px;
-    background-image: url("../images/banner.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    overflow: hidden;
-    position: relative; */
-
-
     background: url("../images/banner.jpg") no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -217,10 +209,6 @@ h6 {
     overflow: hidden;
     z-index: 0;
 }
-/* #banner img{
-    position: absolute;
-    height: inherit;
-} */
 #banner .overlay{
     position: absolute;
     width: 100%;
@@ -438,13 +426,8 @@ h6 {
 /***** Services *****/
 
 #services {
-    /* padding: 80px 0px 40px;
-    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/serve.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed; */
+    /* padding: 80px 0px 40px; */
     text-align: center;
-
-
     background: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/serve.jpg") no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -514,11 +497,15 @@ h6 {
 }
 /***** Timeline *****/
 #timeline {
-    padding: 80px 0px 40px;
-    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/exp.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    /* padding: 80px 0px 40px; */
     text-align: center;
+    background: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/exp.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    padding: 2em 0;
 }
 #timeline h4{
     color: #037ef3;
@@ -655,11 +642,14 @@ h6 {
 /***** contact *****/
 #contact {
     padding: 80px 0px 40px;
-    background-image: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/contact.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
     text-align: center;
-    height: 400px;
+    background: url("https://demo.w3layouts.com/demos_new/template_demo/30-10-2018/recognize_demo_Free/1686477365/web/images/contact.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height: 30vw;
 }
 #contact h4{
     color: #037ef3;
@@ -685,7 +675,7 @@ h6 {
 }
 @media(max-width:768px){
     #contact{
-        height: 600px;
+        height: 90vw;
     }
 }
 /***** Footer *****/
