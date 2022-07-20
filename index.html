@@ -270,21 +270,21 @@
                         <i class="far fa-map mb-3"></i>
                         <div>
                             <h6>ADDRESS</h6>
-                            <p>ROHINI, DELHI-110085</p>
+                            <p>SURREY, VANCOUVER</p>
                         </div>
                     </div>
                     <div class="col-md-4 mb-2" data-aos="flip-up" data-aos-duration="1000">
                         <i class="far fa-envelope mb-3"></i>
                         <div>
                             <h6>EMAIL</h6>
-                            <p>EMAIL : sahilnarang7838@gmail.com</p>
+                            <a href="mailto:sahilnnarangs@gmail.com" style="color: white;">📧 sahilnnarangs@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-md-4 mb-2" data-aos="flip-up" data-aos-duration="1000">
                         <i class="fas fa-mobile-alt mb-3"></i>
                         <div>
                             <h6>P H O N E</h6>
-                            <p>+91-9654790111</p>
+                            <a href="tel:+7787980457" style="color: white;">📞(778) 798-0457</a>
                         </div>
                     </div>
                 </div>
@@ -295,13 +295,36 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
-                        <ul data-aos="fade-up" data-aos-duration="1000">
+                        <!-- <ul data-aos="fade-up" data-aos-duration="1000">
                             <li class="mb-3"><a href="#">HOME</a></li>
                             <li class="mb-3"><a class="scroll" href="#about">ABOUT</a></li>
                             <li class="mb-3"><a class="scroll" href="#services">SERVICES</a></li>
                             <li class="mb-3"><a class="scroll" href="#projects">PROJECTS</a></li>
                             <li class="mb-3"><a class="scroll" href="#contact">CONTACT US</a></li>
-                        </ul>
+                        </ul> -->
+                        <form action="index.html" method="post" class="details" data-aos="fade-up" data-aos-duration="1000">
+                            <div>
+                                <h3 class="mb-3">Feel Free to Ask Anything</h3>
+                            </div>
+                            <div class="mb-3">
+                                <label for="name">Your Name</label>
+                                <input onblur="checkName(this)" onkeyup="checkName(this)" name="custName" id="name" type="text" required />
+                            </div>
+                            <div class="mb-3">
+                                <label for="mail">Your E-mail</label>
+                                <input onblur="checkEmail(this)" onkeyup="checkEmail(this)" name="custEmail" id="mail" type="email" class="email" required/>
+                                <div class="x mt-2">
+
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="commBox">Your Message</label>
+                                <textarea name="custExp" id="commBox" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <button class="btn btn-primary" type="submit" onclick="showMessage(this)">Submit your Message</button>
+                            </div>
+                        </form>
                     </div>
                     <div class="logo col-md-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
                         <a href="#">
@@ -331,49 +354,37 @@
         $(document).ready(function(){
         	var events = [
                 {
-        			date: '<b>2021 JULY - 2022 JAN(PRESENT)</b>',
-        			content: '<b>TATA CONSULTANCY SERVICES</b><small>Assistant System Engineer</small>'
-        		},
-			{
-				date: '<b>2017 AUGUST - 2021 JULY</b>',
-        			content: '<b>HMR INSTITUTE OF TECHNOLOGY</b><small>BTECH(INFORMATION AND TECHNOLOGY)(89.9%)</small>'
-			},
-        		{
-        			date: '<b>22 MAY 2020 - 20 JULY 2020</b>',
-        			content: '<b>Defence Research and Development Organisation</b><small>Worked as Web Developer</small>'
+                    date: '<b>2022 MAY - PRESENT</b>',
+                    content: '<b>DOUGLAS COLLEGE, NEW WESTMINSTER,BC</b><small>POST-BACCALEURATE DIPLOMA:COMPUTER & INFORMATION SYSTEM (DATA ANALYSIS)</small>'
+                },
+                {
+        			date: '<b>2021 JULY - 2022 MARCH</b>',
+        			content: '<b>TATA CONSULTANCY SERVICES, DELHI,INDIA</b><small>Assistant System Engineer</small>'
         		},
         		{
-        			date: '<b>22 MARCH 2020 - 20 MAY 2020</b>',
-        			content: '<b>Unique Touch Solution</b><small>Worked as Web Developer</small>'
+        			date: '<b>MAY 2020 - JULY 2020</b>',
+        			content: '<b>Defence Research and Development Organisation, DELHI,INDIA</b><small>Worked as Intern (Web Developer)</small>'
+        		},
+        		{
+        			date: '<b>MARCH 2020 - MAY 2020</b>',
+        			content: '<b>Unique Touch Solution, DELHI,INDIA</b><small>Worked as Intern (Web Developer)</small>'
         		},
                 {
-                    date: '<b>2020</b>',
-        			content: '<b>Brain Mentors Pvt Ltd</b><small>UI TRAINING</small>'
-                },
-                {
-                    date: '<b>2020</b>',
-        			content: '<b>Brain Mentors Pvt Ltd</b><small>DJANGO TRAINING</small>'
-                },
-                {
-                    date: '<b>2019</b>',
-        			content: '<b>Brain Mentors Pvt Ltd</b><small>MACHINE LEARnING TRAINING</small>'
-                },
-                {
-                    date: '<b>2018</b>',
-        			content: '<b>Brain Mentors Pvt Ltd</b><small>PYTHON TRAINING</small>'
+                    date: '<b>2017 AUGUST - 2021 JULY</b>',
+                        content: '<b>HMR INSTITUTE OF TECHNOLOGY, DELHI,INDIA</b><small>BACHELOR OF TECHNOLOGY(IT)(89.9%)</small>'
                 },
         		{
         			date: '<b>2017</b>',
-        			content: '<b>DL DAV MODEL SCHOOL PITAMPURA</b><small>12th Education ( 81.4% )</small>'
+        			content: '<b>DL DAV MODEL SCHOOL PITAMPURA, DELHI,INDIA</b><small>12th Education ( 81.4% )</small>'
         		},
                 {
                     date: '<b>2015</b>',
-        			content: '<b>DL DAV MODEL SCHOOL PITAMPURA</b><small>10th Education ( 9 CGPA )</small>'
+        			content: '<b>DL DAV MODEL SCHOOL PITAMPURA, DELHI,INDIA</b><small>10th Education ( 9 CGPA )</small>'
                 },
         	];
 
             $('#my-roadmap').roadmap(events, {
-                eventsPerSlide: 5,
+                eventsPerSlide: 4,
                 slide: 1,
                 prevArrow: '<i class="material-icons">keyboard_arrow_left</i>',
                 nextArrow: '<i class="material-icons">keyboard_arrow_right</i>',
