@@ -140,7 +140,7 @@ h6 {
     height: auto;
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    top: 83px !important;
+    top: 60px !important;
     left: 0px;
 }
 #main-navigation .showMenu li{
@@ -786,6 +786,30 @@ h6 {
 #footer .details div button{
     border-radius: 15px;
 }
+
+#footer input#name:focus:valid,
+#footer input#mail:focus:valid,
+#footer input#address:focus:valid,
+#footer input#phone:focus:valid{
+    background: rgb(220, 255, 220) url("../images/rb_valid.png") bottom right/contain no-repeat;
+}
+#footer input#name:focus:invalid,
+#footer input#mail:focus:invalid,
+#footer input#phone:focus:invalid{
+    background: rgb(255, 232, 233) url("../images/rb_invalid.png") bottom right/contain no-repeat;
+}
+
+#footer input#phone::placeholder{
+    text-align: center;
+}
+
+#footer input#date{
+    text-align: center;
+    opacity: 0.5;
+}
+
+
+
 /* Specific CSS */
 #toTop{
     text-decoration: none;
