@@ -27,31 +27,42 @@ function initEvent(){
         button1.style.color = "#fff";
     });
 }
-function checkName(n){
+function validateName(n){
     if(n.value == "")
     {
-        n.style.border = "2px solid red";
-        n.style.boxShadow = "1px 1px 2px red";
+        n.style.border = "2px solid rgb(255, 150, 150)";
     }
     else{
         n.style.border = "2px solid green";
-        n.style.boxShadow = "1px 1px 2px green";
         x = true;
     }
     return x;
 }
-function checkEmail(n){
-    if(!document.querySelector(".email").validity.valid)
+function validateNum(n){
+    if(!n.validity.valid)
     {
-        n.style.border = "2px solid red";
-        n.style.boxShadow = "1px 1px 2px red";
+        n.style.border = "2px solid rgb(255, 150, 150)";
+        document.querySelector(".y").innerHTML = "Please Enter Valid Phone Number";
+        document.querySelector(".y").style.color = "red";
+        document.querySelector(".y").style.fontSize = "100%";
+    }
+    else{
+        n.style.border = "2px solid green";
+        document.querySelector(".y").innerHTML = "";
+        y = true;
+    }
+    return x;
+}
+function checkEmail(n){
+    if(!n.validity.valid)
+    {
+        n.style.border = "2px solid rgb(255, 150, 150)";
         document.querySelector(".x").innerHTML = "Please Enter Valid Email Id";
         document.querySelector(".x").style.color = "red";
         document.querySelector(".x").style.fontSize = "100%";
     }
     else{
         n.style.border = "2px solid green";
-        n.style.boxShadow = "1px 1px 2px green";
         document.querySelector(".x").innerHTML = "";
         y = true;
     }
@@ -62,3 +73,10 @@ function showMessage(n){
         alert("Your response has been Sent to Sahil Narang");
     }
 }
+function changeopacity(){
+    var dateControl = document.querySelector('input[type="date"]');
+    if(dateControl.value != ""){
+        dateControl.style.opacity = "1";
+    }
+}
+
