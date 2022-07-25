@@ -811,11 +811,6 @@ h6 {
     text-align: center;
     opacity: 0.5;
 }
-@media(max-width:768px){
-    #footer input#date{
-        margin-left: 20px;
-    }
-}
 
 
 /* Specific CSS */
