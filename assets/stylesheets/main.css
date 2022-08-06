@@ -331,13 +331,13 @@ h6 {
 }
 @media(max-width:480px){
     #banner{
-        height: 68vw;
+        height: 60vw;
+    }
+    #banner .buttons .btn{
+        padding: 5px 20px;
     }
 }
 @media(max-width:375px){
-    #banner{
-        height: 74vw;
-    }
     #banner .desc h4,
     #banner .buttons a{
         font-size: 0.7em;
@@ -347,9 +347,6 @@ h6 {
     }
     #banner .desc h1 {
         font-size: 1.8em;
-    }
-    #banner .buttons .btn{
-        padding: 6px 20px;
     }
 }
 /***** About *****/
@@ -769,6 +766,73 @@ h6 {
 }
 #footer a{
     color: grey;
+}
+#footer .details input,textarea{
+    width: 100%;
+}
+#footer .details label{
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+    font-size: 0.9em;
+    color: #333338;
+    font-weight: 700;
+}
+
+#footer .details h3{
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+    font-size: 1.5em;
+    color: #333338;
+    font-weight: 700;
+}
+#footer .details div button{
+    border-radius: 15px;
+}
+
+#footer input#name:focus:valid,
+#footer input#mail:focus:valid,
+#footer input#address:focus:valid,
+#footer input#phone:focus:valid{
+    background: rgb(220, 255, 220) url("../images/rb_valid.png") bottom right/contain no-repeat;
+}
+#footer input#name:focus:invalid,
+#footer input#mail:focus:invalid,
+#footer input#phone:focus:invalid{
+    background: rgb(255, 232, 233) url("../images/rb_invalid.png") bottom right/contain no-repeat;
+}
+
+#footer input#phone::placeholder{
+    text-align: center;
+}
+
+#footer input[type="radio"],#footer input[type="checkbox"]{
+    width: auto;
+}
+#footer .changeText{
+    text-shadow: 2px 2px 2px rgba(41, 41, 41, 0.15);
+    font-size: 0.9em;
+    color: #333338;
+    font-weight: 700;
+}
+@media(max-width:1200px){
+    #footer .gap{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:768px){
+    #footer .details label{
+        font-size: 0.7em;
+
+    }
+    #footer .changeText{
+
+        font-size: 0.7em;
+
+    }
+}
+
+#footer input#date{
+    width: 100%;
+    text-align: center;
+    opacity: 0.5;
 }
 
 
